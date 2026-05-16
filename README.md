@@ -11,11 +11,11 @@ To conquer tracks designed to confuse basic sensors with thick intersections and
 
 ## 🛠️ Hardware Specifications
 This chassis and control architecture is designed to be highly adaptable:
-* **Microcontroller:** ESP32 / Arduino Nano
+* **Microcontroller:** ESP32 
 * **Motor Driver:** SparkFun TB6612FNG
 * **Sensors (Current Setup):** 2x Digital IR Proximity Sensors, configured with a precise 40mm physical gap to perfectly straddle 3.6cm thick competition lines.
 * **Sensors (Supported Upgrades):** Fully compatible with QTR-8RC (8-Channel RC Reflectance Sensor Array) for advanced, high-resolution PID line mapping.
-* **Chassis:** Custom 2-wheel drive setup with DC gear motors.
+* **Chassis:** Custom 2-wheel drive setup with DC gear motors. 
 
 ## 💻 Tech Stack
 * **Language:** C++
@@ -112,5 +112,5 @@ void loop() {
 ```
 
 ## 🚀 Future Roadmap
-* Transition from discrete IRs to a high-density **QTR-8RC sensor array** for smoother error gradients.
+* Transition from discrete IRs to a high-density **QTR-8RC sensor array**/**8 Channel IR Sensor Array** for smoother error gradients.
 * Integrate a line-loss timer for automatic precision braking when the track ends.
